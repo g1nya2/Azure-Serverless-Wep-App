@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Azure Functions의 HTTP 트리거 URL
-AZURE_FUNCTION_URL = "YOUR_AZURE_FUNCTION_URL_HERE"
+AZURE_FUNCTION_URL = "https://azureknu.azurewebsites.net"
 
 @app.route('/')
 def index():
